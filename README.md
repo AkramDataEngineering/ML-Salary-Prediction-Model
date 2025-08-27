@@ -1,67 +1,66 @@
 # ML-Salary-Prediction-Model
-💼 Salary Prediction with Machine Learning
+# 💼 Salary Prediction with Machine Learning
 
-This beginner-friendly project demonstrates how to build a simple salary prediction model using Python and Machine Learning. It focuses on exploring the linear relationship between years of job experience and salary.
+This beginner-friendly project demonstrates how to build a simple **salary prediction model** using **Python** and **Machine Learning**. It focuses on exploring the linear relationship between **years of job experience** and **salary**.
 
-📊 Problem Statement
+---
+
+## 📊 Problem Statement
 
 Salary generally increases with job experience. In this project, we use a dataset containing just two features:
 
-YearsExperience
+- `YearsExperience`
+- `Salary`
 
-Salary
+The goal is to predict the salary of a person based on their years of experience using **Linear Regression**.
 
-The goal is to predict the salary of a person based on their years of experience using Linear Regression.
+---
 
-🔧 Tools & Libraries Used
+## 🔧 Tools & Libraries Used
 
-Python
+- Python
+- Pandas
+- NumPy
+- Plotly (for interactive visualizations)
+- scikit-learn (for building the ML model)
 
-Pandas
+---
 
-NumPy
+## 🚀 Project Workflow
 
-Plotly (for interactive visualizations)
+1. **Import Dataset**  
+   Load the dataset from `Salary_Data.csv`.
 
-scikit-learn (for building the ML model)
+2. **Data Preprocessing**  
+   - Check for missing values  
+   - Visualize the data using scatter plots with regression trendlines
 
-🚀 Project Workflow
+3. **Model Building**  
+   - Split the dataset into training and testing sets  
+   - Train a **Linear Regression** model using `scikit-learn`
 
-Import Dataset
-Read and explore the Salary_Data.csv file.
+4. **Prediction**  
+   - Predict salary based on user-inputted years of experience
 
-Data Preprocessing
+---
 
-Check for null values
+## 📈 Results
 
-Visualize the relationship between experience and salary
+- The visualization shows a **strong linear correlation** between job experience and salary.
+- The trained model accurately predicts salary based on years of experience.
 
-Model Building
+---
 
-Use LinearRegression from scikit-learn
+## 🔮 Example Output
 
-Split data into training and testing sets
-
-Prediction
-
-Train the model
-
-Predict salary based on user input (years of experience)
-
-📈 Results
-
-The visualization shows a perfect linear correlation between job experience and salary.
-
-The model effectively predicts salary for given experience values.
-
-🔮 Example Output
+```bash
 Years of Experience : 2
 Predicted Salary =  [[44169.21]]
+
 
 📂 Dataset
 
 You can download the dataset from: Salary_Data.csv
- (Add your dataset link here)
 
 📚 Ideal For
 
